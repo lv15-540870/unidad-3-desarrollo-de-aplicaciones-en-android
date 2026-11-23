@@ -69,4 +69,8 @@ dependencies {
 
     // Swipe
     implementation(libs.swipe)
+
+    implementation(libs.androidx.material.icons.core)
+
+    implementation(libs.androidx.material.icons.extended)
 }

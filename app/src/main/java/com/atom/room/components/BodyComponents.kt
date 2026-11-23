@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.material.icons.Icons
 import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -69,7 +70,7 @@ fun CronoCard(title:String, crono : String, onClick:() -> Unit){
             )
             Row(){
                 Icon(
-                    painter= painterResource(R.drawable.time),
+                    imageVector = Icons.Default.,
                     contentDescription="",
                     tint=Color.Gray
                 )
