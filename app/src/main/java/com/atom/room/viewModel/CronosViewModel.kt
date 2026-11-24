@@ -31,4 +31,11 @@ class CronosViewodel @Inject constructor(private  val repository
             }
         }
     }
+    fun addCrono(cronos: Cronos) =
+        viewModelScope.launch { repository.addCrono(cronos) }
+    fun updateCrono(cronos:Cronos) =
+        viewModelScope.launch { repository.updateCrono(cronos) }
+    fun deleteCrono(cronos : Cronos)=
+        viewModelScope.launch { repository.updateCrono(cronos) }
+
 }
