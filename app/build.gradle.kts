@@ -71,10 +71,6 @@ dependencies {
     // Swipe
     implementation(libs.swipe)
 
-<<<<<<< HEAD
-    implementation(libs.androidx.material.icons.core)
-=======
->>>>>>> 3e9710505ad8adb09cb99b73ead2fb433a5d44bb
 
     implementation(libs.androidx.material.icons.extended)
 }
